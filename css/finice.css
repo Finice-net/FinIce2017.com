@@ -75,9 +75,8 @@ hr.star-primary:after {
 }
 
 header {
+    margin-top: 170px;
     text-align: center;
-    color: #e8f1f2;
-    background: #006494;
 }
 
 header .container {
@@ -86,23 +85,18 @@ header .container {
 }
 
 header img {
-    display: block;
-    margin: 0 auto 20px;
+    height:100%;
+    width:100%;
+    max-width:1280px;
 }
 
-header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-}
+header .fb-like {
+   vertical-align : bottom;
+} 
 
-header .intro-text .maincontent {
-    font-size: 1.25em;
-    font-weight: 300;
+.img-logot img{
+margin:20px;
 }
-
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
@@ -118,7 +112,7 @@ header .intro-text .maincontent {
     }
 }
 
-@media(min-width:768px) {
+@media(min-width:1280px) {
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -166,7 +160,7 @@ header .intro-text .maincontent {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2 {
